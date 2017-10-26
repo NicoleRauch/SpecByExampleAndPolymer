@@ -1,9 +1,9 @@
 *.zip
-**/files/*
-**/FitNesse/*
-**/PageFooter/*
-**/PageHeader/*
-**/RecentChanges/*
-**/TemplateLibrary/*
+**/FitNesseRoot/files/*
+**/FitNesseRoot/FitNesse/*
+**/FitNesseRoot/PageFooter/*
+**/FitNesseRoot/PageHeader/*
+**/FitNesseRoot/RecentChanges/*
+**/FitNesseRoot/TemplateLibrary/*
 node_modules
 .idea
