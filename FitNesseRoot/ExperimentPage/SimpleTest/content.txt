@@ -1,0 +1,10 @@
+!|import       |
+|CheckPageTitle|
+
+
+
+!|Check Page Title                                                 |
+|URL                  |Title?                                      |
+|https://www.google.de|Google                                      |
+|http://webdriver.io  |WebdriverIO - WebDriver bindings for Node.js|
+

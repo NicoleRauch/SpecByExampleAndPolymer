@@ -1,0 +1,5 @@
+!define TEST_SYSTEM {slim}
+!define COMMAND_PATTERN {./node_modules/.bin/slimjs %p}
+!path ./fixtures
+
+!contents -R2 -g -p -f -h
