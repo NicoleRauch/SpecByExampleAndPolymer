@@ -1,0 +1,22 @@
+{
+  "name": "SpecByExampleAndPolymer",
+  "description": "An Experiment",
+  "version": "1.0.0",
+  "author": "Nicole Rauch",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">6.0"
+  },
+  "scripts": {
+    "fitnesse": "java -jar fitnesse-standalone.jar -p 8080",
+    "selenium-firefox": "cd selenium && java -jar -Dwebdriver.gecko.driver=./geckodriver selenium-server-standalone-3.0.1.jar",
+    "selenium-chrome": "cd selenium && java -jar -Dwebdriver.chrome.driver=./chromedriver selenium-server-standalone-3.0.1.jar"
+  },
+  "dependencies": {
+    "webdriverio": "4.8.0"
+  },
+  "devDependencies": {
+    "slimjs": "2.1.4"
+  }
+}
