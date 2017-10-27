@@ -18,7 +18,7 @@ How can we access Polymer frontend code with Spec by Example using FitNesse?
 ## What is already provided in this repo?
 
 1. [FitNesse](http://www.fitnesse.org) - it is checked in. The checked-in version is v20160515.
-1. [SlimJS]() - it is installed via NPM.
+1. [SlimJS](https://github.com/noamtcohen/SlimJS) - it is installed via NPM.
 1. [Webdriver.IO](http://webdriver.io/) - it is installed via NPM.
 
 ## Running Everything
