@@ -18,20 +18,6 @@ module.exports.CheckPageTitle = function () {
     _url = url;
   };
 
-  /*
-  this.TitleAsync =  async function () {
-     return await _browser.url(_url).getTitle();
-  };
-
-  this.TitleAsync = function () {
-    // return await _browser.url(_url).getTitle();
-
-    const title = (async () => await _browser.url(_url).getTitle())();
-    console.log(title);
-    return title;
-  };
-  */
-
   this.Title = function () {
     return {
       then: function (fulfill) {

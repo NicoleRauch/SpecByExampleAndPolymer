@@ -1,5 +1,9 @@
-!|import       |
-|CheckPageTitle|
+!|import                        |
+|CheckPageTitle                 |
+|CheckPageTitleAsyncAwaitDirect |
+|CheckPageTitleAsyncAwaitWrapped|
+|CheckPageTitleReturnDirect     |
+
 
 
 
@@ -7,4 +11,19 @@
 |URL                  |Title?                                      |
 |https://www.google.de|Google                                      |
 |http://webdriver.io  |WebdriverIO - WebDriver bindings for Node.js|
+
+
+!|Check Page Title (Async-Await Direct)|
+|URL                       |Title?     |
+|https://www.google.de     |Google     |
+
+
+!|Check Page Title (Async-Await Wrapped)|
+|URL                        |Title?     |
+|https://www.google.de      |Google     |
+
+
+!|Check Page Title (Return Direct)|
+|URL                     |Title?  |
+|https://www.google.de   |Google  |
 
