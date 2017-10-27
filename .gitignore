@@ -7,3 +7,6 @@
 **/FitNesseRoot/TemplateLibrary/*
 node_modules
 .idea
+chromedriver
+geckodriver
+selenium-server-standalone-3.0.1.jar
