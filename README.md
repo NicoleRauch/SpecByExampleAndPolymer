@@ -17,7 +17,7 @@ How can we access Polymer frontend code with Spec by Example using FitNesse?
 
 ## What is already provided in this repo?
 
-1. [FitNesse](http://www.fitnesse.org) - it is checked in. The checked-in version is v20160515.
+1. [FitNesse](http://www.fitnesse.org) - it is checked in. The checked-in version is v20161106.
 1. [SlimJS](https://github.com/noamtcohen/SlimJS) - it is installed via NPM.
 1. [Webdriver.IO](http://webdriver.io/) - it is installed via NPM.
 
@@ -34,10 +34,3 @@ This way, you can explore which attempts I made so far, which worked well for me
 
 You can find the corresponding fixtures (i.e.~the glue code between the tables and the websites) in the `fixtures` folder.
 Their names match the names in the table headers (modulo whitespace and non-text characters).
-
-## Caveats
-
-Updating FitNesse to v20161106 is currently not possible 
-[because I think there is a bug in SlimJS](https://github.com/noamtcohen/SlimJS/issues/14). If this bug gets fixed,
-I will update this project.
-

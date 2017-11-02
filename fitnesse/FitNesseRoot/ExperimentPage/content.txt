@@ -1,5 +1,6 @@
 !define TEST_SYSTEM {slim}
 !define COMMAND_PATTERN {../node_modules/.bin/slimjs %p}
 !path ../fixtures
+!define SLIM_PORT {9086}
 
 !contents -R2 -g -p -f -h
