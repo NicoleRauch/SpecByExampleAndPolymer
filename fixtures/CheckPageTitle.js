@@ -1,4 +1,5 @@
 const webdriverio = require('webdriverio');
+const wrapHybridPromise = require('./helpers').wrapHybridPromise;
 
 const options = {
   desiredCapabilities: {
@@ -19,15 +20,7 @@ module.exports.CheckPageTitle = function () {
   };
 
   this.Title = function () {
-    return {
-      then: function (fulfill) {
-        _browser
-          .url(_url)
-          .getTitle().then(function (title) {
-          fulfill(title);
-        });
-      }
-    }
+    return wrapHybridPromise(_browser.url(_url).getTitle());
   };
 
   this.endTable = function () {
